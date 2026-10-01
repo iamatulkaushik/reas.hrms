@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Revolution.Hrms.DAL</RootNamespace>
+    <AssemblyName>Revolution.Hrms.DAL</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Revolution.Hrms.Common\Revolution.Hrms.Common.vbproj" />
+    <ProjectReference Include="..\Revolution.Hrms.Models\Revolution.Hrms.Models.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <!-- Floating minor version. Pin it once restore works on your machine. -->
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="6.*" />
+  </ItemGroup>
+
+</Project>

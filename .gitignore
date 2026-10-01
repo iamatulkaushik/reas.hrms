@@ -1,0 +1,20 @@
+# Build output
+bin/
+obj/
+publish/
+*.user
+*.suo
+.vs/
+TestResults/
+
+# Local configuration and data (never commit)
+appsettings.json
+*.mdf
+*.ldf
+*.bak
+Logs/
+
+# OS and editor
+Thumbs.db
+.DS_Store
+.idea/

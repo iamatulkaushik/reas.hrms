@@ -1,0 +1,13 @@
+<Project>
+  <!-- Applies to every project. Standards: docs/CODING_STANDARDS.md -->
+  <PropertyGroup>
+    <OptionStrict>On</OptionStrict>
+    <OptionExplicit>On</OptionExplicit>
+    <OptionInfer>On</OptionInfer>
+    <LangVersion>latest</LangVersion>
+    <Deterministic>true</Deterministic>
+    <Company>Revolution</Company>
+    <Product>Revolution HRMS</Product>
+    <Version>0.3.0</Version>
+  </PropertyGroup>
+</Project>

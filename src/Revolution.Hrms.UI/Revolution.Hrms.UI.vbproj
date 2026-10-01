@@ -1,0 +1,27 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net10.0-windows</TargetFramework>
+    <RootNamespace>Revolution.Hrms.UI</RootNamespace>
+    <AssemblyName>Revolution.Hrms.UI</AssemblyName>
+    <UseWindowsForms>true</UseWindowsForms>
+    <!-- Own Sub Main in Program.vb: global exception handler, config load, logging -->
+    <MyType>WindowsFormsWithCustomSubMain</MyType>
+    <StartupObject>Sub Main</StartupObject>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <!-- UI talks to BLL only. Common and Models are shared helpers and types. -->
+    <ProjectReference Include="..\Revolution.Hrms.BLL\Revolution.Hrms.BLL.vbproj" />
+    <ProjectReference Include="..\Revolution.Hrms.Common\Revolution.Hrms.Common.vbproj" />
+    <ProjectReference Include="..\Revolution.Hrms.Models\Revolution.Hrms.Models.vbproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="appsettings*.json">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>

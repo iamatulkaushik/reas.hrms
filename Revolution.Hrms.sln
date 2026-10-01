@@ -1,0 +1,73 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Revolution.Hrms.Common", "src\Revolution.Hrms.Common\Revolution.Hrms.Common.vbproj", "{F4DFCC7D-D31B-449C-990A-4999E0847BDD}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Revolution.Hrms.Models", "src\Revolution.Hrms.Models\Revolution.Hrms.Models.vbproj", "{FD549FE3-C55F-4A0C-82A0-182BC2243AF7}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Revolution.Hrms.DAL", "src\Revolution.Hrms.DAL\Revolution.Hrms.DAL.vbproj", "{B8D852AA-9CDD-4193-ACED-43D397FC9C4C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Revolution.Hrms.BLL", "src\Revolution.Hrms.BLL\Revolution.Hrms.BLL.vbproj", "{8B82CA91-B2A5-4424-BA43-3580E5A47F65}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Revolution.Hrms.Reports", "src\Revolution.Hrms.Reports\Revolution.Hrms.Reports.vbproj", "{3A04387D-BD7C-4DED-B605-7E4771FE1F6C}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Revolution.Hrms.UI", "src\Revolution.Hrms.UI\Revolution.Hrms.UI.vbproj", "{0C104194-224C-41DF-AC6C-348EC9A820B0}"
+EndProject
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "Revolution.Hrms.Tests", "tests\Revolution.Hrms.Tests\Revolution.Hrms.Tests.vbproj", "{8FAB4DA3-3EC2-4107-AE87-89EFCF74909D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Revolution.Hrms.Installer", "Revolution.Hrms.Installer", "{86953743-2836-40F2-BA81-83962024724C}"
+	ProjectSection(SolutionItems) = preProject
+		installer\README.md = installer\README.md
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{1C72ECDB-49B9-4905-A35D-80A4B802B12D}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+		.gitattributes = .gitattributes
+		.gitignore = .gitignore
+		Directory.Build.props = Directory.Build.props
+		Setup-Db.ps1 = Setup-Db.ps1
+		CLAUDE.md = CLAUDE.md
+		README.md = README.md
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F4DFCC7D-D31B-449C-990A-4999E0847BDD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4DFCC7D-D31B-449C-990A-4999E0847BDD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4DFCC7D-D31B-449C-990A-4999E0847BDD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4DFCC7D-D31B-449C-990A-4999E0847BDD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FD549FE3-C55F-4A0C-82A0-182BC2243AF7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FD549FE3-C55F-4A0C-82A0-182BC2243AF7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FD549FE3-C55F-4A0C-82A0-182BC2243AF7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FD549FE3-C55F-4A0C-82A0-182BC2243AF7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B8D852AA-9CDD-4193-ACED-43D397FC9C4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B8D852AA-9CDD-4193-ACED-43D397FC9C4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B8D852AA-9CDD-4193-ACED-43D397FC9C4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B8D852AA-9CDD-4193-ACED-43D397FC9C4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8B82CA91-B2A5-4424-BA43-3580E5A47F65}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8B82CA91-B2A5-4424-BA43-3580E5A47F65}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8B82CA91-B2A5-4424-BA43-3580E5A47F65}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8B82CA91-B2A5-4424-BA43-3580E5A47F65}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3A04387D-BD7C-4DED-B605-7E4771FE1F6C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3A04387D-BD7C-4DED-B605-7E4771FE1F6C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3A04387D-BD7C-4DED-B605-7E4771FE1F6C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3A04387D-BD7C-4DED-B605-7E4771FE1F6C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0C104194-224C-41DF-AC6C-348EC9A820B0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0C104194-224C-41DF-AC6C-348EC9A820B0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0C104194-224C-41DF-AC6C-348EC9A820B0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0C104194-224C-41DF-AC6C-348EC9A820B0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8FAB4DA3-3EC2-4107-AE87-89EFCF74909D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8FAB4DA3-3EC2-4107-AE87-89EFCF74909D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8FAB4DA3-3EC2-4107-AE87-89EFCF74909D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8FAB4DA3-3EC2-4107-AE87-89EFCF74909D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

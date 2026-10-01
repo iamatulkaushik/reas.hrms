@@ -1,0 +1,15 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Revolution.Hrms.BLL</RootNamespace>
+    <AssemblyName>Revolution.Hrms.BLL</AssemblyName>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Revolution.Hrms.Common\Revolution.Hrms.Common.vbproj" />
+    <ProjectReference Include="..\Revolution.Hrms.Models\Revolution.Hrms.Models.vbproj" />
+    <ProjectReference Include="..\Revolution.Hrms.DAL\Revolution.Hrms.DAL.vbproj" />
+  </ItemGroup>
+
+</Project>

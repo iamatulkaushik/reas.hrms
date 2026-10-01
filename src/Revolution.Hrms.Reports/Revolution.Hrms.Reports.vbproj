@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <!-- Empty until v0.5. Pin the Crystal runtime and check .NET 10 support before adding it. -->
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <RootNamespace>Revolution.Hrms.Reports</RootNamespace>
+    <AssemblyName>Revolution.Hrms.Reports</AssemblyName>
+  </PropertyGroup>
+
+</Project>
